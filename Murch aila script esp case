@@ -1,0 +1,17 @@
+local childrik = game:GetService("Workspace")["Misc"]["MurchCase"]
+
+local esp = Instance.new("BoxHandleAdornment",childrik)
+
+esp.Adornee = childrik
+
+esp.ZIndex = 0
+
+esp.Size = Vector3.new(2, 1, 2)
+
+esp.Transparency = 0,35
+
+esp.Color3 = Color3.fromRGB(196,40,28)
+
+esp.AlwaysOnTop = true
+
+esp.Name = "EspBod"
